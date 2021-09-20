@@ -9,7 +9,7 @@ arm simulator
 
     how:
         Unity visualiser
-            in: joint angles
+            in: joint angles post IK
             manipulation: 
                 for join k, perform forward kinematics from joint 1 up to k.
             out: visualisation of arm current pose. 
