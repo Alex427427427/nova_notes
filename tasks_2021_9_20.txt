@@ -5,6 +5,7 @@ arm simulator
         test out operation during design phase.
         operator training while arm is yet to be manufactured.
         operator training while arm is damaged.
+        will live alongside team
 
     how:
         Unity visualiser
