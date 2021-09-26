@@ -1,0 +1,41 @@
+2021-9-27
+
+read through:
+    URC rules
+    ARC rules
+
+create arm simulator timeline with Tom
+
+software induction task
+    ROS2 obstacle detector, due Oct 3rd
+
+arm simulator
+    purpose: 
+        test out operation during design phase.
+        operator training while arm is yet to be manufactured.
+        operator training while arm is damaged.
+        will live alongside team
+
+    how:
+        Unity visualiser
+            in: joint angles from the other arm simulator post IK
+            manipulation: 
+                for joint k, perform forward kinematics from joint 1 up to k.
+            out: visualisation of arm current pose. 
+
+            import arm model k times for k joints. For each joint, remove all 
+                parts of the arm except for the current link associated with joint k.
+                Place joint k at the place specified by forward kinematics.
+
+        future improvement:
+            add camera views according to their position on the arm. 
+            add ability to adjust camera positions. 
+
+
+attend meeting with Michelle and TOm
+    think through task split and timeline with TOm
+
+COntinue:
+    learning Unity  
+    understanding features/IK
+    prepare altium workshop
