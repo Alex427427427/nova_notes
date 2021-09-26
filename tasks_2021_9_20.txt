@@ -1,5 +1,14 @@
 2021-9-20
 
+read through:
+    URC rules
+    ARC rules
+
+create arm simulator timeline with Tom
+
+software induction task
+    ROS2 obstacle detector, due Oct 3rd
+
 arm simulator
     purpose: 
         test out operation during design phase.
@@ -22,9 +31,6 @@ arm simulator
             add camera views according to their position on the arm. 
             add ability to adjust camera positions. 
 
-
-software induction task
-    ROS2 obstacle detector, due Oct 3rd
 
 attend meeting with Michelle and TOm
     think through task split and timeline with TOm
